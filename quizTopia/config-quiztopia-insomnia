@@ -1,0 +1,419 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-09-27T10:31:43.666Z",
+  "__export_source": "insomnia.desktop.app:v2023.5.8",
+  "resources": [
+    {
+      "_id": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "parentId": null,
+      "modified": 1695747809085,
+      "created": 1695747809085,
+      "name": "quiztopia-imp-this",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_466f6e13a43b468083d4e6b61ee127f1",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747809086,
+      "created": 1695747809086,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1695655027805,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_f95143f5967b4e50a5f62064b03f584f",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747809089,
+      "created": 1695747809089,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_555c94e68f1f43669cbd64cf89999b87",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747809117,
+      "created": 1695747809116,
+      "fileName": "quiztopia-imp-this",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    },
+    {
+      "_id": "req_8efe20de023e4172a982157c497fe58d",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747813812,
+      "created": 1695747809091,
+      "url": "https://9w69slu3oi.execute-api.eu-north-1.amazonaws.com/api/quiz",
+      "name": "GET - Quiz",
+      "description": "",
+      "method": "GET",
+      "body": {
+        "mimeType": "application/json",
+        "text": ""
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1695655030155,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_d4b8ecc9653645f98afea1fecaef4403",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747817536,
+      "created": 1695747809101,
+      "url": "https://9w69slu3oi.execute-api.eu-north-1.amazonaws.com/api/quiz",
+      "name": "POST - Quiz",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": ""
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_db7ff953b20146c18d1ac65d5c453dad"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8",
+          "id": "pair_8671ff30a57849bc8cdf937512cff2da"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1695389199589,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_e846ea44f93649b59fc91470bcbc252d",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747821224,
+      "created": 1695747809094,
+      "url": "https://9w69slu3oi.execute-api.eu-north-1.amazonaws.com/api/quiz/{quizId}",
+      "name": "DELETE - Quiz",
+      "description": "",
+      "method": "DELETE",
+      "body": {
+        "mimeType": "application/json",
+        "text": ""
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_db7ff953b20146c18d1ac65d5c453dad"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8",
+          "id": "pair_8671ff30a57849bc8cdf937512cff2da"
+        },
+        {
+          "id": "pair_f20e86fac025472d9f8c49f12d6c27e4",
+          "name": "Authorization",
+          "value": "",
+          "description": "",
+          "disabled": false
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1694857538457,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_04138183a54b4783b7e25a2a5340c6dd",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695810650215,
+      "created": 1695747809099,
+      "url": "https://9w69slu3oi.execute-api.eu-north-1.amazonaws.com/api/createAccount",
+      "name": "POST - Create Account",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": ""
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_db7ff953b20146c18d1ac65d5c453dad"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8",
+          "id": "pair_8671ff30a57849bc8cdf937512cff2da"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1694724623124,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c1402d445cee47879c5e30eef8056e4e",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747825082,
+      "created": 1695747809096,
+      "url": "https://9w69slu3oi.execute-api.eu-north-1.amazonaws.com/api/login",
+      "name": "POST - Login",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": ""
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_db7ff953b20146c18d1ac65d5c453dad"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8",
+          "id": "pair_8671ff30a57849bc8cdf937512cff2da"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1694724623074,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_75823e9df4b14bd6a1473bbd81368738",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747835181,
+      "created": 1695747809103,
+      "url": "https://9w69slu3oi.execute-api.eu-north-1.amazonaws.com/api/quiz/question",
+      "name": "POST - Quiz Question",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": ""
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_db7ff953b20146c18d1ac65d5c453dad"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8",
+          "id": "pair_8671ff30a57849bc8cdf937512cff2da"
+        },
+        {
+          "id": "pair_a93ec5bfa7ad4d55b07096d2f71df6fa",
+          "name": "Authorization",
+          "value": "",
+          "description": "",
+          "disabled": false
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1694724622974,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_75823e9df4b14bd6a1473bbd81368738",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747835181,
+      "created": 1695747809103,
+      "url": "https://9w69slu3oi.execute-api.eu-north-1.amazonaws.com/api/quiz/question",
+      "name": "POST - Quiz Question",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": ""
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_db7ff953b20146c18d1ac65d5c453dad"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8",
+          "id": "pair_8671ff30a57849bc8cdf937512cff2da"
+        },
+        {
+          "id": "pair_a93ec5bfa7ad4d55b07096d2f71df6fa",
+          "name": "Authorization",
+          "value": "",
+          "description": "",
+          "disabled": false
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1694724622974,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_75823e9df4b14bd6a1473bbd81368738",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747835181,
+      "created": 1695747809103,
+      "url": "https://9w69slu3oi.execute-api.eu-north-1.amazonaws.com/api/quiz/question",
+      "name": "POST - Quiz Question",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": ""
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_db7ff953b20146c18d1ac65d5c453dad"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8",
+          "id": "pair_8671ff30a57849bc8cdf937512cff2da"
+        },
+        {
+          "id": "pair_a93ec5bfa7ad4d55b07096d2f71df6fa",
+          "name": "Authorization",
+          "value": "",
+          "description": "",
+          "disabled": false
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1694724622974,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_75823e9df4b14bd6a1473bbd81368738",
+      "parentId": "wrk_5762247980b345aba25e8da3fcb1c004",
+      "modified": 1695747835181,
+      "created": 1695747809103,
+      "url": "https://9w69slu3oi.execute-api.eu-north-1.amazonaws.com/api/quiz/question",
+      "name": "POST - Quiz Question",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": ""
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_db7ff953b20146c18d1ac65d5c453dad"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8",
+          "id": "pair_8671ff30a57849bc8cdf937512cff2da"
+        },
+        {
+          "id": "pair_a93ec5bfa7ad4d55b07096d2f71df6fa",
+          "name": "Authorization",
+          "value": "",
+          "description": "",
+          "disabled": false
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1694724622974,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    }
+  ]
+}
+
+
+      
